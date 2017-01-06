@@ -1,0 +1,53 @@
+body {
+	display: block;
+	margin: auto;
+	width: 100%;
+	font-family: Roboto;
+	font-size: 1em;
+	color: #90A4AE;
+	background-color: #424242;
+}
+
+div {
+
+}
+
+p {
+
+}
+
+span{
+	display: block;
+}
+
+label{
+	display: block;
+}
+
+.wrapper {
+	width: inherit;
+}
+
+.search-output{
+	color: #000;
+	width: 430px;
+	height: 300px;
+	background-color: white;
+}
+
+.error-message {
+	font-size: 2em;
+	color: #D50000;
+}
+
+input {
+	margin: 0 0 1em 0;
+}
+
+input[type="file"] {
+	display: inherit;
+}
+
+.hidden {
+	display: none;
+}

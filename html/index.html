@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<style src="<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></style>
+	<script src="../scripts/mousetrap.min.js"></script>
+	<script src="../scripts/jquery-3.1.1.min.js"></script>
+	<script src="../scripts/app.js"></script>
+	<title>DW-Log-Scanner</title>
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Demandware Log Scanner v1.0</h1>
+		<p>Upload up to 5 log files and preform a keyword search.</p>
+		<form id="dw-log-form">
+			<input id="search" type="text" name="keywords" placeholder="Enter Keyword To Search">
+			<button type="submit" class="submit-logs">Submit Search</button>
+			<button type="submit" class="clear-logs">Clear Logs</button>
+			<label for="log-file-1">Log File 1</label>
+			<input type="file" accept=".xml" id="log-file-1">
+			<label for="log-file-2">Log File 2</label>
+			<input type="file" accept=".xml" id="log-file-2">
+			<label for="log-file-3">Log File 3</label>
+			<input type="file" accept=".xml" id="log-file-3">
+			<label for="log-file-4">Log File 4</label>
+			<input type="file" accept=".xml" id="log-file-4">
+			<label for="log-file-5">Log File 5</label>
+			<input type="file" accept=".xml" id="log-file-5">
+		</form>
+		<div class="search-output">
+			<span class="output-1"></span>
+			<span class="output-2"></span>
+			<span class="output-3"></span>
+			<span class="output-4"></span>
+			<span class="output-5"></span>
+		</div>
+	</div>
+</html>
+</body>
