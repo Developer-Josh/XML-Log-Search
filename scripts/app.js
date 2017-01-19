@@ -47,7 +47,7 @@ $(document).ready(function() {
 				$searchOutput.append(matchNotFound);
 			}
 			else if (match.length == 1){
-				var matchFound = searchTerm + " found " + match.length + " time in " + currentLog;
+				var matchFound = searchTerm + " found " + "1" + " time in " + currentLog;
 				$searchOutput.append(matchFound)
 			}
 			else{
